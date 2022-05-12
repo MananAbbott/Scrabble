@@ -1,0 +1,27 @@
+{
+  "name": "326-homework-08-server-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "author": "COMPSCI 326",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "morgan":"^1.10.0",
+    "node-fetch": "^3.2.3",
+    "dotenv": "^16.0.0",
+    "mongodb": "^4.5.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.1.2",
+    "copyfiles": "^2.4.1"
+  },
+  "engines": {
+    "node": "16.13.1",
+    "npm" : "8.1.2"
+  }
+}
